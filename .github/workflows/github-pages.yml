@@ -27,5 +27,5 @@ jobs:
       run: |
           git config user.name "lbugnet"
           git config user.email "lbugnet@flatironinstitute.org"
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/lbugnet/lbugnet.github.io
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/lbugnet/lbugnet.github.io.git
           npm run deploy
