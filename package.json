@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "3.0.1",
-  "homepage": "https://lbugnet.github.io/",
+  "homepage": "https://lbugnet.github.io/public/index.html",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lbugnet/lbugnet.github.io/public/"
+    "url": "https://github.com/lbugnet/lbugnet.github.io/"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
