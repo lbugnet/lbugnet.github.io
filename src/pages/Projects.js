@@ -11,11 +11,11 @@ const Projects = () => (
     title="Publications"
     description="Learn about Lisa Bugnet's projects."
   >
-    <article className="post" id="publications">
+    <article className="post" id="research">
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/projects">Research</Link></h2>
-          <p>Most recent journal articles</p>
+          <p>Current research projects</p>
         </div>
       </header>
       {data.map((project) => (

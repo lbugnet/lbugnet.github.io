@@ -5,7 +5,11 @@ const data = [
     subtitle: 'I. An axisymmetric fossil field inside the core of red giants.',
     journal: 'A&A, 650, A53 + journal cover',
     link: 'https://www.aanda.org/articles/aa/abs/2021/06/aa39159-20/aa39159-20.html',
+<<<<<<< Updated upstream
     image: '/images/publications/big_photocouv650-2.jpg',
+=======
+    image: '/images/publications/big_photocouv650-2-2.jpg',
+>>>>>>> Stashed changes
     date: '2021-06',
     desc:
       'Bugnet, L., V. Prat, S. Mathis, A. Astoul, K. Augustson, R.A. García, S. Mathur, L. Amard, C. Neiner.  ',
@@ -14,7 +18,11 @@ const data = [
     title: 'Sounding the internal magnetism of starsusing asymptotic magneto-asteroseismolog',
     journal: 'A&A, 647, A122',
     link: 'https://www.aanda.org/articles/aa/full_html/2021/03/aa39180-20/aa39180-20.html',
+<<<<<<< Updated upstream
     image: '/images/publications/Fig3_Strategy.png',
+=======
+    image: '/images/publications/Fig3_Strategy.jpg',
+>>>>>>> Stashed changes
     date: '2021-03',
     desc:
       'S. Mathis∗, L. Bugnet∗, V. Prat, K. Augustson, S. Mathur, and R. A. Garcia.',
