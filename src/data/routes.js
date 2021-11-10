@@ -1,24 +1,32 @@
 const routes = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: 'Dr. Lisa Bugnet',
     path: '/',
   },
   {
-    label: 'About',
-    path: '/about',
+    label: 'Research',
+    path: '/projects',
   },
+  // {
+  //   label: 'About Me',
+  //   path: '/about',
+  // },
   {
-    label: 'Resume',
+    label: 'CV',
     path: '/resume',
   },
   {
-    label: 'Projects',
-    path: '/projects',
+    label: 'Publications',
+    path: '/publications',
   },
+  // {
+  //   label: 'Stats',
+  //   path: '/stats',
+  // },
   {
-    label: 'Stats',
-    path: '/stats',
+    label: 'Outreach',
+    path: '/outreach',
   },
   {
     label: 'Contact',
