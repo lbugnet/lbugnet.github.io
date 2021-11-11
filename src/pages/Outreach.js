@@ -5,9 +5,11 @@ import Main from '../layouts/Main';
 
 import Video from '../components/Outreach/videos';
 import Twitter from '../components/Outreach/twitter';
+import Twitter3 from '../components/Outreach/twitter3';
 // import data from '../data/outreach';
 import videos from '../data/outreach/videos';
 import twitter from '../data/outreach/twitter';
+import twitter3 from '../data/outreach/twitter3';
 
 const Outreach = () => (
   <Main
@@ -23,6 +25,7 @@ const Outreach = () => (
       </header>
       <Video data={videos} />
       <Twitter data={twitter} />
+      <Twitter3 data={twitter3} />
       {/* {videos.map((outreach) => (
         <Cell
           data={outreach}
