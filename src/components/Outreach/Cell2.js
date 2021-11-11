@@ -23,9 +23,6 @@ const Cell2 = ({ data }) => (
         </blockquote>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" />
       </a>
-      <a href={data.link} className="image">
-        <img width="5" src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
-      </a>
       <div className="description">
         <p>{data.desc}</p>
       </div>
