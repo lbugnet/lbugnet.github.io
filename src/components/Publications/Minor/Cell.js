@@ -8,28 +8,23 @@ const Cell = ({ data }) => (
       <header>
         <h3><a href={data.link}>{data.title}</a></h3>
         <h3><a href={data.link}>{data.subtitle}</a></h3>
-
+        <h3><i href={data.link}>{data.journal}</i></h3>
+        <h3><ins href={data.link}>{data.desc}</ins></h3>
         <time className="published">{dayjs(data.date).format('YYYY')}</time>
       </header>
-      <a href={data.link} className="video">
-        <iframe width="840" height="472" src={data.video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
-      </a>
-      <div className="description">
-        <p>{data.desc}</p>
-      </div>
     </article>
   </div>
 );
-
 Cell.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     subtitle: PropTypes.string.isRequired,
+    journal: PropTypes.string.isRequired,
     link: PropTypes.string,
     image: PropTypes.string.isRequired,
-    video: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
+    supl: PropTypes.string.isRequired,
   }).isRequired,
 };
 

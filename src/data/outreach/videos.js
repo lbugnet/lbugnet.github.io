@@ -1,5 +1,5 @@
 // TODO Add a couple lines about each publication
-const data = [
+const videos = [
   {
     title: 'Ma Thèse en 180sec',
     subtitle: 'USPC finale, Jury First Prize',
@@ -48,18 +48,18 @@ const data = [
     // + 'or debit cards and rounded up your purchases to donate the balance to '
     // + 'the charity of your choice.',
   },
-  {
-    title: 'Podcast Talents scientifiques, Épisode 3',
-    subtitle: 'https://platform.twitter.com/widgets.js',
-    twitter: "https://twitter.com/lisa_Bugnet?ref_src=twsrc%5Etfw",
-    // image: '/images/outreach/nearestdollar.jpg',
-    // video: 'https://serious.audio/categorie/talents-scientifiques',
-    date: '2019',
-    // desc:
-    // 'Built for a social impact hackathon. '
-    // + 'NearestDollar connected to your bank accounts, credit cards, '
-    // + 'or debit cards and rounded up your purchases to donate the balance to '
-    // + 'the charity of your choice.',
-  },
+  // {
+  //   title: 'Podcast Talents scientifiques, Épisode 3',
+  //   subtitle: 'https://platform.twitter.com/widgets.js',
+  //   twitter: 'https://twitter.com/lisa_Bugnet?ref_src=twsrc%5Etfw',
+  //   // image: '/images/outreach/nearestdollar.jpg',
+  //   // video: 'https://serious.audio/categorie/talents-scientifiques',
+  //   date: '2019',
+  //   // desc:
+  //   // 'Built for a social impact hackathon. '
+  //   // + 'NearestDollar connected to your bank accounts, credit cards, '
+  //   // + 'or debit cards and rounded up your purchases to donate the balance to '
+  //   // + 'the charity of your choice.',
+  // },
 ];
-export default data;
+export default videos;
