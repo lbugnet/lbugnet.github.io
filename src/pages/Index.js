@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
+
+const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const Index = () => (
   <Main
@@ -14,11 +16,16 @@ const Index = () => (
       </citation>
     </p>
     <p align="right"> <citation2> Antoine de Saint-Exupéry </citation2></p>
-    <img width="1000" src={`${process.env.PUBLIC_URL}${'/images/imgbin_the-little-prince-star-estaÃ§Ã£o-do-faz-de-conta-toto-png.png'}`} alt="lpp" />
+    <img width="1000" src={`${PUBLIC_URL}/images/imgbin_the-little-prince-star-estaÃ§Ã£o-do-faz-de-conta-toto-png.png`} alt="" />
+    {/* </Link>
+    <img width="1000" src={`${process.env.PUBLIC_URL}$
+    {'/images/imgbin_the-little-prince-star-estaÃ§Ã£o-do-
+    faz-de-conta-toto-png.png'}`} alt="lpp" />
     <p>  </p>
     <p>  </p>
     <p>  </p>
-    <citation3 align="center"> Welcome to my website. Please feel free to read more about my <Link to="/projects">research interests</Link>,
+    <citation3 align="center"> Welcome to my website.
+    Please feel free to read more about my <Link to="/projects">research interests</Link>,
       or you can check out my {' '}
       <Link to="/resume">CV</Link>, {' '}
       <Link to="/publications">publications</Link>, {' '}
