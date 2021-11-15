@@ -4,7 +4,7 @@ const datam = [
     title: 'Detections of solar-like oscillations in dwarfs and subgiants with Kepler DR25 short-cadence data',
     // subtitle: 'I. An axisymmetric fossil field inside the core of red giants.',
     journal: 'Accepted for publication in A&A',
-    // link: 'https://www.aanda.org/articles/aa/abs/2021/06/aa39159-20/aa39159-20.html',
+    link: 'https://www.aanda.org/articles/aa/pdf/forth/aa41168-21.html',
     // image: '/images/publications/big_photocouv650-2.jpg',
     date: '2021',
     desc:
@@ -68,7 +68,7 @@ const datam = [
     // image: '/images/publications/big_photocouv650-2.jpg',
     date: '2019',
     desc:
-      'Hon, D. [...], Bugnet, L.',
+      'Hon, M. [...], Bugnet, L.',
   },
   {
     title: 'TESS\'s first planet. A super-Earth transiting the naked-eye star pi Mensae',

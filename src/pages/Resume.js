@@ -37,6 +37,7 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="resume">CV</Link></h2>
+          <a href="https://github.com/lbugnet/personal-site/public/CV_Lisa_Bugnet.pdf" className="download" download="download">Download CV</a>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>

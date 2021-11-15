@@ -35,7 +35,7 @@ const dataM = [
     title: 'Revisiting the impact of stellar magnetic activity on the detection of solar-like oscillations by Kepler',
     // subtitle: 'I. M and K Main-sequence Stars',
     journal: 'Frontiers in Astronomy and Space Sciences',
-    link: 'https://www.frontiersin.org/articles/10.3389/fspas.2019.00046/ful',
+    link: 'https://www.frontiersin.org/articles/10.3389/fspas.2019.00046/full',
     // image: '/images/publications/big_photocouv650-2.jpg',
     date: '2019',
     desc:

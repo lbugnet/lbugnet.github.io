@@ -94,6 +94,17 @@
 		line-height: 15px;
 	}
 
+	citation3 {
+		// font-family: "Brush Script MT", cursive;
+		font-family: "Optima", cursive;
+		font-size: 20px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 100;
+		color: #34495E;
+		line-height: 15px;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
 		font-family: _font(family-heading);
@@ -179,6 +190,11 @@
 		&.major {
 			margin: (_size(element-margin) * 1.5) 0;
 		}
+	}
+
+	pex1 {
+	  margin-left: 5%;
+		margin-right: 5%;
 	}
 
 	.align-left {

@@ -18,13 +18,7 @@ const SideBar = () => (
     </section>
 
     <section className="blurb">
-      <p> Welcome to my website. Please feel free to read more about my <Link to="/projects">research interests</Link>,
-        or you can check out my {' '}
-        <Link to="/resume">CV</Link>, {' '}
-        <Link to="/publications">publications</Link>, {' '}
-        view <Link to="/outreach">outreach</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
-      </p>
+      <p> </p>
       <h2>About</h2>
       <p>I am an Astrophysicist, specialized in stellar physics.
         I use Asteroseismology to unveil the dynamical processes taking place
