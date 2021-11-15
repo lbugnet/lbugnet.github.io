@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
@@ -16,8 +16,12 @@ const Index = () => (
       </citation>
     </p>
     <p align="right"> <citation2> Antoine de Saint-Exupéry </citation2></p>
-    <img width="1000" src={`${PUBLIC_URL}/images/imgbin_the-little-prince-star-estaÃ§Ã£o-do-faz-de-conta-toto-png.png`} alt="" />
-    {/* </Link>
+    <Link to="/" className="logo">
+      <img width="1000" src={`${PUBLIC_URL}/images/stars.png`} alt="" />
+    </Link>
+    {/* <img width="1000" src={`${PUBLIC_URL}/images
+    /imgbin_the-little-prince-star-estaÃ§Ã£o-do-faz-de-conta-toto-png.png`} alt="" />
+    </Link>
     <img width="1000" src={`${process.env.PUBLIC_URL}$
     {'/images/imgbin_the-little-prince-star-estaÃ§Ã£o-do-
     faz-de-conta-toto-png.png'}`} alt="lpp" />
