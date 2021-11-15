@@ -16,6 +16,8 @@ import articles from '../data/publications/first';
 import articlesM from '../data/publications/major';
 import articlesm from '../data/publications/minor';
 
+const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
+
 // import data from '../data/publications';
 
 // const sections = [
@@ -33,6 +35,9 @@ const Publications = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="publications">Publications</Link></h2>
+          <p>  </p>
+          <a href={`${PUBLIC_URL}/LIST_OF_PUBLICATIONS_LISA_BUGNET.pdf`} className="download" download="Publications_Lisa_Bugnet">DOWNLOAD FULL LIST OF PUBLICATIONS</a>
+          <p>  </p>
           {/* <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>

@@ -16,7 +16,7 @@ const prizes = [
     name: 'International Mobility grant for the Paris University',
     // value: '$15,000 funding',
     link: 'https://www.fondationloreal.com/our-programs-women-science/national-and-regional-young-talents-programs',
-    year: '2018, 1month stay at the Institute of Astrophysics of the Canari Islands (IAC)',
+    year: '2018, 1 month stay at the Institute of Astrophysics of the Canari Islands (IAC)',
   },
 
 ];

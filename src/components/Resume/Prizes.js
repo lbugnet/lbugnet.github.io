@@ -20,7 +20,7 @@ import Prize from './Prizes/Grant';
 
 const Prizes = ({ data }) => (
   <div className="courses">
-    <div className="link-to" id="courses" />
+    <div className="link-to" id="prizes & awards -" />
     <div className="title">
       <h3>Prizes & Awards</h3>
     </div>

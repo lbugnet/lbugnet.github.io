@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Grant from './Grants/Grant';
+import Contributed from './Contributed/Contributed';
 
 // const Grants = ({ data }) => (
 //   <div className="Grants">
@@ -18,22 +18,24 @@ import Grant from './Grants/Grant';
 //   </div>
 // );
 
-const Grants = ({ data }) => (
+const Contributeds = ({ data }) => (
   <div className="courses">
-    <div className="link-to" id="research grants -" />
+    <div className="link-to" id="contributed talks -" />
     <div className="title">
-      <h3>Research Grants</h3>
+      <h3>Contributed Talks</h3>
     </div>
-    {data.map((job) => (
-      <Grant
-        data={job}
-        key={job.company}
-      />
-    ))}
+    <ol reversed>
+      {data.map((job) => (
+        <Contributed
+          data={job}
+          key={job.company}
+        />
+      ))}
+    </ol>
   </div>
 );
 
-Grants.propTypes = {
+Contributeds.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     company: PropTypes.string,
     position: PropTypes.string,
@@ -42,8 +44,8 @@ Grants.propTypes = {
   })),
 };
 
-Grants.defaultProps = {
+Contributeds.defaultProps = {
   data: [],
 };
 
-export default Grants;
+export default Contributeds;
