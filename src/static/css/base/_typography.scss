@@ -72,6 +72,28 @@
 		margin: 0 0 _size(element-margin) 0;
 	}
 
+	citation {
+		// font-family: "Brush Script MT", cursive;
+		font-family: "Optima", cursive;
+		font-size: 25px;
+		font-style: italic;
+		font-variant: normal;
+		font-weight: 100;
+		color: #273746;
+		line-height: 15px;
+	}
+
+	citation2 {
+		// font-family: "Brush Script MT", cursive;
+		font-family: "Optima", cursive;
+		font-size: 20px;
+		font-style: italic;
+		font-variant: normal;
+		font-weight: 100;
+		color: #273746;
+		line-height: 15px;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
 		font-family: _font(family-heading);

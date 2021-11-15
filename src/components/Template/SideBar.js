@@ -18,9 +18,21 @@ const SideBar = () => (
     </section>
 
     <section className="blurb">
+      <p> Welcome to my website. Please feel free to read more about my <Link to="/projects">research interests</Link>,
+        or you can check out my {' '}
+        <Link to="/resume">CV</Link>, {' '}
+        <Link to="/publications">publications</Link>, {' '}
+        view <Link to="/outreach">outreach</Link>, {' '}
+        or <Link to="/contact">contact</Link> me.
+      </p>
       <h2>About</h2>
-      <p>Hi, I&apos;m Lisa. I am an Astrophysicist.
-        I am a <a href="https://www.simonsfoundation.org/flatiron/">Flatiron Research Fellow </a>, PhD, ENS Alumni.
+      <p>I am an Astrophysicist, specialized in stellar physics.
+        I use Asteroseismology to unveil the dynamical processes taking place
+        inside the core of stars like the Sun.
+        I am currently a <a href="https://www.simonsfoundation.org/flatiron/">Flatiron Research Fellow </a> at the Center for Computational Astrophysics of the Flatiron Insititute in New York.
+        I obtained my PhD in Astrophysics in 2020 from <a href="https://u-paris.fr/en/">University of Paris</a> and <a href="https://www.cea.fr/english">CEA</a>,
+        and my Astrophysics and Earth Sciences Master degrees in 2017 from the <a href="https://www.ens.psl.eu/en">Ecole Normale Supérieure of Paris</a> and the <a href="https://www.observatoiredeparis.psl.eu/-observatoire-de-paris-.html?lang=en">Paris Observatory</a>.
+
         {/* the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
         at <a href="https://matroid.com">Matroid</a>
         , <a href="https://planet.com">Planet</a>

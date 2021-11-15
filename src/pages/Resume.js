@@ -8,15 +8,21 @@ import Experience from '../components/Resume/Experience';
 // import Skills from '../components/Resume/Skills';
 // import Courses from '../components/Resume/Courses';
 import References from '../components/Resume/References';
+import Prizes from '../components/Resume/Prizes';
+import Grants from '../components/Resume/Grants';
 
 // import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
+import prizes from '../data/resume/prizes';
+import grants from '../data/resume/grants';
 // import { skills, categories } from '../data/resume/skills';
 
 const sections = [
+  'Research -',
   'Education -',
-  'Research Experience -',
+  'Research Grants -',
+  'Prizes & Awards -',
   // 'Skills',
   // 'Courses',
   'References',
@@ -40,11 +46,15 @@ const Resume = () => (
 
         </div>
       </header>
-      <Education data={degrees} />
       <Experience data={positions} />
+      <Education data={degrees} />
+      <Grants data={grants} />
+      <Prizes data={prizes} />
+      {/* <Courses data={courses} />  */}
+      <References />
+
       {/* <Skills skills={skills} categories={categories} /> */}
       {/* <Courses data={courses} /> */}
-      <References />
 
     </article>
   </Main>
