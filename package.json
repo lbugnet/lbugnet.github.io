@@ -3,8 +3,6 @@
   "version": "3.0.1",
   "homepage": "https://lbugnet.github.io/personal-site",
   "license": "MIT",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "repository": {
     "type": "git",
     "url": "https://lbugnet.github.io/personal-site"
