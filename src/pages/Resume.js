@@ -45,12 +45,8 @@ const Resume = () => (
         <div className="title">
           <h2 data-testid="heading"><Link to="resume">CV</Link></h2>
           {/* <a href="./directory/yourfile.pdf" download="newfilename">Download the pdf</a> */}
-          /*<a href={`${PUBLIC_URL}/CV_Lisa_Bugnet_2022-2.pdf`} className="download" download="CV_Lisa_Bugnet_2022-2">DOWNLOAD FULL CV </a>
-          <p>  </p> */
-          <a href={`${PUBLIC_URL}/CV_Lisa_Bugnet_2022-2.pdf`} className="download" download="Publications_Lisa_Bugnet">DOWNLOAD FULL CV AND LIST OF PUBLICATIONS</a>
+          <a href={`${PUBLIC_URL}/CV_Lisa_Bugnet_2022-2.pdf`} className="download" download="Publications_Lisa_Bugnet">DOWNLOAD FULL CV</a>
           <p>  </p>
-          /*<a href={`${PUBLIC_URL}/LIST_ORAL_LISA_BUGNET.pdf`} className="download" download="Talks_Lisa_Bugnet">DOWNLOAD FULL LIST OF ORAL CONTRIBUTIONS</a>
-          <p>  </p> */
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
