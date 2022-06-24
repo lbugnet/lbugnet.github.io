@@ -34,6 +34,10 @@ const SideBar = () => (
         , <a href="https://facebook.com">Facebook</a>
         , and <a href="https://seds.org">SEDS</a */}
       </p>
+      <p>{color:DarkOrange;}
+      Applications are currently open for PhD and Postdoctoral positions in my group at ISTA
+      </p>
+
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}

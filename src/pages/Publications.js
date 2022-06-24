@@ -36,7 +36,7 @@ const Publications = () => (
         <div className="title">
           <h2 data-testid="heading"><Link to="publications">Publications</Link></h2>
           <p>  </p>
-          <a href={`${PUBLIC_URL}/LIST_OF_PUBLICATIONS_LISA_BUGNET.pdf`} className="download" download="Publications_Lisa_Bugnet">DOWNLOAD FULL LIST OF PUBLICATIONS</a>
+          <a href={`${PUBLIC_URL}/Publications_Lisa_Bugnet-2022.pdf`} className="download" download="Publications_Lisa_Bugnet">DOWNLOAD FULL LIST OF PUBLICATIONS</a>
           <p>  </p>
           {/* <div className="link-container">
             {sections.map((sec) => (
