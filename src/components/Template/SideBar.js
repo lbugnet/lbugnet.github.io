@@ -13,7 +13,10 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Lisa Bugnet</h2>
+        <p> Flatiron Research Fellow </p>
         <p><a href="mailto:lbugnet@flatironinstitute.org">lbugnet@flatironinstitute.org</a></p>
+        <p> Starting Junuary 2023: Assistant Professor at ISTA </p>
+        <p>{color:DarkOrange;}Applications are currently open for PhD and Postdoctoral positions in my group at ISTA</p>
       </header>
     </section>
 
