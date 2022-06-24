@@ -16,7 +16,7 @@ const SideBar = () => (
         <p> Flatiron Research Fellow </p>
         <p><a href="mailto:lbugnet@flatironinstitute.org">lbugnet@flatironinstitute.org</a></p>
         <p> Starting Junuary 2023: Assistant Professor at ISTA </p>
-        <p>{color:DarkOrange;}Applications are currently open for PhD and Postdoctoral positions in my group at ISTA</p>
+        <p style="color:red;">Applications are currently open for PhD and Postdoctoral positions in my group at ISTA</p>
       </header>
     </section>
 
@@ -37,7 +37,7 @@ const SideBar = () => (
         , <a href="https://facebook.com">Facebook</a>
         , and <a href="https://seds.org">SEDS</a */}
       </p>
-      <p>{color:DarkOrange;}
+      <p style="color:red;">
       Applications are currently open for PhD and Postdoctoral positions in my group at ISTA
       </p>
 
