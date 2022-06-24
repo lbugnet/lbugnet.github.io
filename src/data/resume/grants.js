@@ -1,7 +1,7 @@
 const prizes = [
 
   {
-    name: 'FWO Postdoctoral Fellowship, KU Leuven, Belgium"',
+    name: 'FWO Postdoctoral Fellowship, KU Leuven, Belgium, Declined due to the position at ISTA',
     // value: '$15,000 funding',
     link: 'https://www.fondationloreal.com/our-programs-women-science/national-and-regional-young-talents-programs',
     year: 'Nov 2022-2025',
