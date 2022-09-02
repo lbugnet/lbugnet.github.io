@@ -18,7 +18,7 @@
       font-size: 0.9rem;
       margin: 0;
       padding: 1.25em;
-      background-color: #e6e6ff;//#0099ff  ;//rgba(255,255,255,.7);
+      background-color: #CDE1FE;//#0099ff  ;//rgba(255,255,255,.7);
       color: #3c3b3b;
       font-family: "Raleway", Helvetica, sans-serif;
       z-index: 1000;
@@ -44,7 +44,7 @@
   @include vendor( 'display', 'flex');
   @include vendor( 'flex-direction', 'column');
   background: _palette(bg);
-  border: solid 15px #e6e6ff  ;//_palette(border);
+  border: solid 15px #CDE1FE  ;//_palette(border);
   // margin: 0 0 _size(10);
   margin: 0 0 _size(element-margin);
 

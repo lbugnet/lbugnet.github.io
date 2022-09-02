@@ -9,7 +9,7 @@ const validateText = (text) => {
 };
 
 const messages = [
-  'lbugnet',
+  'lisa.bugnet',
 ];
 
 const useInterval = (callback, delay) => {
@@ -62,9 +62,9 @@ const EmailLink = () => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@flatironinstitute.org` : ''}>
+      <a href={validateText(message) ? `mailto:${message}@ist.ac.at` : ''}>
         <span>{message}</span>
-        <span>@flatironinstitute.org</span>
+        <span>@ist.ac.at</span>
       </a>
     </div>
   );

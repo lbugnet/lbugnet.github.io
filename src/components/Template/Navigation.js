@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Hamburger from './Hamburger';
+// import Hamburger from './Hamburger';
 import routes from '../../data/routes';
+import ContactIcons from '../Contact/ContactIcons';
+
+// const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 // Websites Navbar, displays routes defined in 'src/data/routes'
 const Navigation = () => (
@@ -21,7 +24,12 @@ const Navigation = () => (
         ))}
       </ul>
     </nav>
-    <Hamburger />
+    {/* <Hamburger /> */}
+    <ContactIcons />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    {/* <img align="center" width="100" height="30"
+    src={`${PUBLIC_URL}/images/ISTA_Logo_4c_rgb.svg-3.png`} alt="" /> */}
+
   </header>
 );
 

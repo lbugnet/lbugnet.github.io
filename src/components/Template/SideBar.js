@@ -19,10 +19,10 @@ const SideBar = () => (
         <a href="https://ist.ac.at/en/research/bugnet-group/">Starting Junuary 2023: Assistant Professor</a> at <a href="https://ist.ac.at/en/home/">Institute of Science and Technology Austria (ISTA)</a>
       </b>
       <br /><br />
-      <p style={{ text: 'lowercase', fontSize: '20px', color: '#9999ff' }} align="center">
+      <p style={{ text: 'lowercase', fontSize: '20px', color: '#629DFC' }} align="center">
         Applications are currently open for Ph.D. and Postdoctoral positions in <a href="https://ist.ac.at/en/research/bugnet-group/">my group</a> at ISTA
       </p>
-      <b style={{ text: 'lowercase', fontSize: '20px', color: '#9999ff' }} align="center">
+      <b style={{ text: 'lowercase', fontSize: '20px', color: '#629DFC' }} align="center">
         Contact: <a href="mailto:lisa.bugnet@ist.ac.at">lisa.bugnet@ist.ac.at</a>
       </b>
     </section>

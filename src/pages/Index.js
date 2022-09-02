@@ -17,7 +17,9 @@ const Index = () => (
     </p>
     <p align="right"> <citation2> Antoine de Saint-Exupéry </citation2></p>
     {/* <Link to="/" className="logo"> */}
-    <img width="1000" src={`${PUBLIC_URL}/images/RG_transparent.png`} alt="" />
+    <p align="center">
+      <img width="800" src={`${PUBLIC_URL}/images/RG_transparent.png`} alt="" />
+    </p>
     <p align="center"> Artist view of a Red Giant star with a strong fossil magnetic field in the radiative core. Bugnet L., Nature News & Views 2022, <i>in prep</i></p>
     {/* </Link> */}
     {/* <img width="1000" src={`${PUBLIC_URL}/images
