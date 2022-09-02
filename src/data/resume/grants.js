@@ -9,13 +9,13 @@ const prizes = [
   {
     name: 'Flatiron Research Fellowship',
     // value: '$15,000 funding',
-    link: 'https://www.fondationloreal.com/our-programs-women-science/national-and-regional-young-talents-programs',
+    link: 'https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/flatiron-research-fellows/',
     year: 'Nov 2020 - 2022',
   },
   {
     name: 'International Mobility grant for the Paris University',
     // value: '$15,000 funding',
-    link: 'https://www.fondationloreal.com/our-programs-women-science/national-and-regional-young-talents-programs',
+    link: 'https://ecolesdoctorales.parisdescartes.fr/Mobilite-Internationale/Bourses-doctorales-de-mobilite-de-l-universite-BDMU',
     year: '2018, 1 month stay at the Institute of Astrophysics of the Canari Islands (IAC)',
   },
 

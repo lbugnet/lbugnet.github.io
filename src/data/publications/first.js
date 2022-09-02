@@ -2,7 +2,17 @@
 const articles = [
   {
     title: 'Magnetic signatures on mixed-mode frequencies.',
-    subtitle: 'I. An axisymmetric fossil field inside the core of red giants.',
+    subtitle: 'II. Period spacings as a probe of the internal magnetism of red giants',
+    journal: 'A&A, Accepted for publication',
+    link: 'https://arxiv.org/pdf/2208.14954.pdf',
+    image: '/images/publications/Bugnet2022.png',
+    date: '2022-08',
+    desc:
+      'Bugnet, L.',
+  },
+  {
+    title: 'Magnetic signatures on mixed-mode frequencies.',
+    subtitle: 'I. An axisymmetric fossil field inside the core of red giants',
     journal: 'A&A, 650, A53 + journal cover',
     link: 'https://www.aanda.org/articles/aa/abs/2021/06/aa39159-20/aa39159-20.html',
     image: '/images/publications/big_photocouv650-2.jpg',

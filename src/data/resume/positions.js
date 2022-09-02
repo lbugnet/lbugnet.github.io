@@ -1,9 +1,17 @@
 const positions = [
   {
+    company: 'Institute of Science and Technology Austria',
+    position: 'Assistant Professor',
+    link: 'https://ist.ac.at/en/research/bugnet-group/',
+    daterange: 'Since January 2023',
+    points: [
+    ],
+  },
+  {
     company: 'Flatiron Institute, Simons Foundation',
     position: 'Flatiron Research Fellow',
     link: 'https://www.simonsfoundation.org/people/lisa-bugnet/',
-    daterange: 'November 2020 - Present',
+    daterange: 'November 2020 - October 2022',
     points: [
       'Magnetic fields inside stars like the Sun',
       'Observational, Theoretical and computational Stellar physics',

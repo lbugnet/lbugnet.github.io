@@ -12,9 +12,10 @@ const Cell = ({ data }) => (
       <p> </p>
       <ul className="points">
         <h3> Methods & Propsects</h3>
-        {data.points.map((point) => (
+        <p style={{ paddingLeft: '15px' }}>{data.points.map((point) => (
           <li key={point}>{point}</li>
         ))}
+        </p>
       </ul>
       <a href={data.link} className="image">
         <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />

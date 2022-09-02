@@ -8,8 +8,9 @@ const twitter = [
     // link: 'https://www.aanda.org/articles/aa/abs/2021/06/aa39159-20/aa39159-20.html',
     // image: '/images/outreach/twitterserious.png',
     date: '2020',
-    // desc:
-    //   'Mathur, S., [...], Bugnet, L. et al. ',
+    desc:
+      'Au fil des podcasts de Talents Scientifiques'
+      + 'écoutons ces jeunes chercheuses talentueuses lauréates du prix de la fondation l\'Oréal For Women in Science en partenariat avec l\'UNESCO.',
   },
 
   // {

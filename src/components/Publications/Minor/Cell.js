@@ -10,7 +10,7 @@ const Cell = ({ data }) => (
         <p><h4><a href={data.link}>{data.subtitle}</a></h4></p>
         <pex1><i href={data.link}>{data.desc}</i></pex1>
         <p> </p>
-        <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
+        <time className="published">{dayjs(data.date).format('YYYY')}</time>
         <p><i href={data.link}>{data.journal}</i></p>
       </header>
       {/* <div className="description">

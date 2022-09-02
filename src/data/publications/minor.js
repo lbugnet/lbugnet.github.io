@@ -1,9 +1,19 @@
 // TODO Add a couple lines about each publication
 const datam = [
   {
+    title: 'The K2 Galactic Archaeology Program Data Release 3: Age-abundance Patterns in C1-C8 and C10-C18',
+    // subtitle: 'I. An axisymmetric fossil field inside the core of red giants.',
+    journal: 'The Astrophysical Journal, 926:191',
+    link: 'https://iopscience.iop.org/article/10.3847/1538-4357/ac2c83/pdf',
+    // image: '/images/publications/big_photocouv650-2.jpg',
+    date: '2022',
+    desc:
+      'Zinn, Joel C., [...], Bugnet, L. et al. ',
+  },
+  {
     title: 'Detections of solar-like oscillations in dwarfs and subgiants with Kepler DR25 short-cadence data',
     // subtitle: 'I. An axisymmetric fossil field inside the core of red giants.',
-    journal: 'Accepted for publication in A&A',
+    journal: 'Astronomy & Astrophysics, Volume 657, id.A31, 16 pp.',
     link: 'https://www.aanda.org/articles/aa/pdf/forth/aa41168-21.html',
     // image: '/images/publications/big_photocouv650-2.jpg',
     date: '2021',

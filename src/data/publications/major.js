@@ -1,6 +1,16 @@
 // TODO Add a couple lines about each publication
 const dataM = [
   {
+    title: 'Detecting deep axisymmetric toroidal magnetic fields in stars. The traditional approximation of rotation for differentially rotating deep spherical shells with a general azimuthal magnetic field',
+    // subtitle: 'I. An axisymmetric fossil field inside the core of red giants.',
+    journal: 'A&A 661, A133',
+    link: 'https://www.aanda.org/articles/aa/pdf/2022/05/aa42956-21.pdf',
+    // image: '/images/publications/big_photocouv650-2.jpg',
+    date: '2022',
+    desc:
+      'Dhouib, H.; Mathis, S.; Bugnet, L. et al.,',
+  },
+  {
     title: 'TESS Data for Asteroseismology (T\'DA) Stellar Variability Classification Pipeline: Set-Up and Application to Kepler Q9 data',
     // subtitle: 'I. An axisymmetric fossil field inside the core of red giants.',
     journal: 'The Astronomical Journal, 162, 5',

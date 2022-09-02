@@ -11,6 +11,7 @@
 		@include vendor('flex-direction', 'row-reverse');
 		@include vendor('transition', 'opacity #{_duration(menu)} ease');
 		margin: 0 auto;
+		// background-color: blue;
 		max-width: 100%;
 		opacity: 1;
 		padding: (_size(section-spacing) * 1.5);
