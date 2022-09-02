@@ -17,7 +17,7 @@ const Index = () => (
     </p>
     <p align="right"> <citation2> Antoine de Saint-Exupéry </citation2></p>
     {/* <Link to="/" className="logo"> */}
-    <img width="1000" src={`${PUBLIC_URL}/images/stars.png`} alt="" />
+    <img width="1000" src={`${PUBLIC_URL}/images/images/stars.png`} alt="" />
     {/* </Link> */}
     {/* <img width="1000" src={`${PUBLIC_URL}/images
     /imgbin_the-little-prince-star-estaÃ§Ã£o-do-faz-de-conta-toto-png.png`} alt="" />
