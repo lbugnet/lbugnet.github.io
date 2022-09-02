@@ -3,7 +3,7 @@ const NaV = [
   {
     title: 'Hidden currents at the Sun’s surface',
     subtitle: 'L. Bugnet',
-    image: 'images/NaVnatAst2022.png',
+    image: '/images/NaVnatAst2022.png',
     link: 'https://www.nature.com/articles/s41550-022-01683-2.pdf?proof=t%2525C2%2525A0',
     date: '2022',
     desc:
