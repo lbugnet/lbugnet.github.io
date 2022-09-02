@@ -36,7 +36,7 @@ Cell2.propTypes = {
     title: PropTypes.string.isRequired,
     subtitle: PropTypes.string.isRequired,
     link: PropTypes.string,
-    image: PropTypes.string.isRequired,
+    image: PropTypes.string,
     video: PropTypes.string.isRequired,
     twitter: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,

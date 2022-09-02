@@ -8,9 +8,6 @@ const Cell3 = ({ data }) => (
       <header>
         <h3><a href={data.link}>{data.title}</a></h3>
         <h3><a href={data.link}>{data.subtitle}</a></h3>
-        <a href={data.link} className="image">
-          <img src={`${process.env.PUBLIC_URL}${data.image}`}/>
-        </a>
         <time className="published">{dayjs(data.date).format('YYYY')}</time>
       </header>
       <a href={data.link} className="twitter">
