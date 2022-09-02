@@ -6,7 +6,7 @@ const twitter = [
     journal: 'Episode 3: Le rire des étoiles',
     twitter: 'https://twitter.com/AudioSerious/status/1257913133848502272?ref_src=twsrc%5Etfw',
     // link: 'https://www.aanda.org/articles/aa/abs/2021/06/aa39159-20/aa39159-20.html',
-    // image: '/images/outreach/twitterserious.png',
+    image: '/images/outreach/twitterserious.png',
     date: '2020',
     desc:
       'Au fil des podcasts de Talents Scientifiques'

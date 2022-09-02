@@ -8,9 +8,11 @@ const Cell2 = ({ data }) => (
       <header>
         <h3><a href={data.link}>{data.title}</a></h3>
         <h3><a href={data.link}>{data.subtitle}</a></h3>
-
         <time className="published">{dayjs(data.date).format('YYYY')}</time>
       </header>
+      <a href={data.link} className="image">
+        <img width="20" src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
+      </a>
       <a href={data.link} className="twitter">
         <blockquote className="twitter-tweet">
           <p lang="fr" dir="ltr">Dans le podcast Talents Scientifiques du jour, découvrez le parcours de <a href="https://twitter.com/lisa_Bugnet?ref_src=twsrc%5Etfw">@lisa_Bugnet</a> qui étudie la dynamique interne des étoiles pour comprendre leur origine et leur évolution:

@@ -2,13 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 
-const Cell2 = ({ data }) => (
+const Cell3 = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
       <header>
         <h3><a href={data.link}>{data.title}</a></h3>
         <h3><a href={data.link}>{data.subtitle}</a></h3>
-
+        <a href={data.link} className="image">
+          <img src={`${process.env.PUBLIC_URL}${data.image}`}/>
+        </a>
         <time className="published">{dayjs(data.date).format('YYYY')}</time>
       </header>
       <a href={data.link} className="twitter">
@@ -28,7 +30,8 @@ const Cell2 = ({ data }) => (
     </article>
   </div>
 );
-Cell2.propTypes = {
+
+Cell3.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     subtitle: PropTypes.string.isRequired,
@@ -41,4 +44,4 @@ Cell2.propTypes = {
   }).isRequired,
 };
 
-export default Cell2;
+export default Cell3;

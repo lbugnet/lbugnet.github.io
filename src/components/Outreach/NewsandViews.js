@@ -9,9 +9,9 @@ const NewsandViews = ({ data }) => (
     <div className="title">
       <h3>News and Views</h3>
     </div>
-    {data.map((twitter) => (
+    {data.map((image) => (
       <NaV
-        data={twitter}
+        data={image}
       />
     ))}
   </div>

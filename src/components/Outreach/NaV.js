@@ -10,8 +10,8 @@ const NaV = ({ data }) => (
         <h3><a href={data.link}>{data.subtitle}</a></h3>
         <time className="published">{dayjs(data.date).format('YYYY')}</time>
       </header>
-      <a href={data.link} className="NewsandViews" align="center">
-        <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
+      <a href={data.link} align="center" className="NaV">
+        <img width="600" src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
       </a>
       <div className="description">
         <p>{data.desc}</p>
