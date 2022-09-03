@@ -19,11 +19,12 @@ const NewsandViews = ({ data }) => (
 
 NewsandViews.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
-    school: PropTypes.string,
-    degree: PropTypes.string,
-    twitter: PropTypes.string,
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+    image: PropTypes.string,
+    date: PropTypes.string,
     link: PropTypes.string,
-    year: PropTypes.number,
+    desc: PropTypes.string,
   })),
 };
 

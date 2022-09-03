@@ -19,11 +19,13 @@ const Twitter = ({ data }) => (
 
 Twitter.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
-    school: PropTypes.string,
-    degree: PropTypes.string,
+    title: PropTypes.string,
+    journal: PropTypes.string,
+    image: PropTypes.string,
     twitter: PropTypes.string,
     link: PropTypes.string,
-    year: PropTypes.number,
+    date: PropTypes.number,
+    desc: PropTypes.string,
   })),
 };
 
