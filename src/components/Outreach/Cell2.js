@@ -11,20 +11,29 @@ const Cell2 = ({ data }) => (
         <time className="published">{dayjs(data.date).format('YYYY')}</time>
       </header>
       <a href={data.link} className="image">
-        <img width="20" src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
+        <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
       </a>
-      <a href={data.link} className="twitter">
-        <blockquote className="twitter-tweet">
-          <p lang="fr" dir="ltr">Dans le podcast Talents Scientifiques du jour, découvrez le parcours de <a href="https://twitter.com/lisa_Bugnet?ref_src=twsrc%5Etfw">@lisa_Bugnet</a> qui étudie la dynamique interne des étoiles pour comprendre leur origine et leur évolution:
-            Apple Podcast :
-            <a href="https://t.co/iOh3kwBbn3">https://t.co/iOh3kwBbn3</a>
-            <a href="https://t.co/7XmlLpxxgw">pic.twitter.com/7XmlLpxxgw</a>
-          </p>
-          &mdash; Serious Audio (@AudioSerious)
-          <a href={data.twitter}>May 6, 2020</a>
-        </blockquote>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" />
-      </a>
+      {/* <a href={data.link} className="twitter">  */}
+      <blockquote className="twitter-tweet" data-theme="dark">
+        <p lang="fr" dir="ltr">Dans le podcast Talents Scientifiques du jour, découvrez le parcours de
+          <a href="https://twitter.com/lisa_Bugnet?ref_src=twsrc%5Etfw">
+            @lisa_Bugnet
+          </a>
+          qui étudie la dynamique interne des étoiles pour comprendre
+          leur origine et leur évolution :
+          <br />Acast :
+          <a href="https://t.co/0u54ifakac">
+            https://t.co/0u54ifakac
+          </a>
+          <br /> Apple Podcast :
+          <a href="https://t.co/iOh3kwBbn3">https://t.co/iOh3kwBbn3</a>
+          <a href="https://t.co/7XmlLpxxgw">pic.twitter.com/7XmlLpxxgw</a>
+          <br />Serious Audio (@AudioSerious) <a href="https://twitter.com/AudioSerious/status/1257913133848502272?ref_src=twsrc%5Etfw">May 6, 2020</a>
+        </p>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" />
+
+      {/* </a> */}
       <div className="description">
         <p>{data.desc}</p>
       </div>
