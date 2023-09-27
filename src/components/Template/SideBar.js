@@ -29,13 +29,17 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About Me</h2>
       <p>I am an Astrophysicist, specialized in Stellar physics.
-        I use Asteroseismology to unveil the dynamical processes taking place inside the core of stars like the Sun.
-        I am currently an Assistant Professor and leader of the Asterics -- Asteroseismology & Stellar Dynamics group 
+        I use Asteroseismology to unveil the dynamical processes taking 
+        place inside the core of stars like the Sun.
+        I am currently an Assistant Professor and leader of the Asterics 
+        - Asteroseismology & Stellar Dynamics group 
         at <a href="https://ist.ac.at/en/home/">Institute of Science and Technology Austria (ISTA)</a>
       </p>
-      <p> I obtained my PhD in Astrophysics in 2020 from <a href="https://u-paris.fr/en/">University of Paris</a> and <a href="https://www.cea.fr/english">CEA</a>,
+      <p> I obtained my PhD in Astrophysics in 2020 from <a href="https://u-paris.fr/en/">University of Paris</a> 
+      and <a href="https://www.cea.fr/english">CEA</a>,
         and my Astrophysics and Earth Sciences Master degrees in 2017 from the 
-        <a href="https://www.ens.psl.eu/en">Ecole Normale Supérieure of Paris</a> and the <a href="https://www.observatoiredeparis.psl.eu/-observatoire-de-paris-.html?lang=en">Paris Observatory</a>.
+        <a href="https://www.ens.psl.eu/en">Ecole Normale Supérieure of Paris</a> and 
+        the <a href="https://www.observatoiredeparis.psl.eu/-observatoire-de-paris-.html?lang=en">Paris Observatory</a>.
         {/* the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
         at <a href="https://matroid.com">Matroid</a>
         , <a href="https://planet.com">Planet</a>
