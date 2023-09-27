@@ -11,7 +11,7 @@ const SideBar = () => (
       <Link to="/" className="logo">
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
-      <Link to="/" className="logo">
+      <Link to="https://www.asterics.at/" className="logo">
         <img src={`${PUBLIC_URL}/images/asterics.png`} alt="" />
       </Link>
       <header>
