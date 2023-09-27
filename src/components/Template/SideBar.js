@@ -21,7 +21,9 @@ const SideBar = () => (
       <p style={{ text: 'lowercase', fontSize: '20px', color: '#629DFC' }} align="center">
         Leader of the Asterics -- Asteroseismology & Stellar Dynamics group at ISTA. Group website: <a href="https://www.asterics.at/">ASTERICS</a>
       </p>
-      <img src={`${PUBLIC_URL}/images/asterics.png`} alt="" />
+      <Link to="/" className="logo">
+        <img src={`${PUBLIC_URL}/images/asterics.png`} alt="" />
+      </Link>
       <b style={{ text: 'lowercase', fontSize: '20px', color: '#629DFC' }} align="center">
         Contact: <a href="mailto:lisa.bugnet@ist.ac.at">lisa.bugnet@ist.ac.at</a>
       </b>
