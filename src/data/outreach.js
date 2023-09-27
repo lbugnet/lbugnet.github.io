@@ -51,7 +51,7 @@ const data = [
   {
     title: 'Podcast Talents scientifiques, Épisode 3',
     subtitle: 'https://platform.twitter.com/widgets.js',
-    twitter: "https://twitter.com/lisa_Bugnet?ref_src=twsrc%5Etfw",
+    twitter: 'https://twitter.com/lisa_Bugnet?ref_src=twsrc%5Etfw',
     // image: '/images/outreach/nearestdollar.jpg',
     // video: 'https://serious.audio/categorie/talents-scientifiques',
     date: '2019',
