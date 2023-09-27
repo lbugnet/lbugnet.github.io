@@ -13,14 +13,13 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Lisa Bugnet</h2>
-        <p> Flatiron Research Fellow </p>
       </header>
       <b>
-        <a href="https://ist.ac.at/en/research/bugnet-group/">Starting Junuary 2023: Assistant Professor</a> at <a href="https://ist.ac.at/en/home/">Institute of Science and Technology Austria (ISTA)</a>
+        <a href="https://ist.ac.at/en/research/bugnet-group/">Assistant Professor</a> at <a href="https://ist.ac.at/en/home/">Institute of Science and Technology Austria (ISTA)</a>
       </b>
       <br /><br />
       <p style={{ text: 'lowercase', fontSize: '20px', color: '#629DFC' }} align="center">
-        Applications are currently open for Ph.D. and Postdoctoral positions in <a href="https://ist.ac.at/en/research/bugnet-group/">my group</a> at ISTA
+        Leader of the Asterics -- Asteroseismology & Stellar Dynamics group at ISTA. Group website: <a href="https://www.asterics.at/">ASTERICS</a>
       </p>
       <b style={{ text: 'lowercase', fontSize: '20px', color: '#629DFC' }} align="center">
         Contact: <a href="mailto:lisa.bugnet@ist.ac.at">lisa.bugnet@ist.ac.at</a>
@@ -32,8 +31,7 @@ const SideBar = () => (
       <p>I am an Astrophysicist, specialized in Stellar physics.
         I use Asteroseismology to unveil the dynamical processes taking place
         inside the core of stars like the Sun.
-        I am currently a <a href="https://www.simonsfoundation.org/flatiron/">Flatiron Research Fellow </a> at the Center for Computational Astrophysics of the Flatiron Institute in New York, and will soon join the <a href="https://ist.ac.at/en/home/">Institute of Science and Technology Austria (ISTA)</a> as an Assistant Professor.
-      </p>
+        I am currently an Assistant Professor and leader of the Asterics -- Asteroseismology & Stellar Dynamics group at <a href="https://ist.ac.at/en/home/">Institute of Science and Technology Austria (ISTA)</a>
       <p> I obtained my PhD in Astrophysics in 2020 from <a href="https://u-paris.fr/en/">University of Paris</a> and <a href="https://www.cea.fr/english">CEA</a>,
         and my Astrophysics and Earth Sciences Master degrees in 2017 from the <a href="https://www.ens.psl.eu/en">Ecole Normale Supérieure of Paris</a> and the <a href="https://www.observatoiredeparis.psl.eu/-observatoire-de-paris-.html?lang=en">Paris Observatory</a>.
         {/* the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
